@@ -1,0 +1,23 @@
+name: MLGRUUSH
+author: Leon Development
+prefix: "§bMLG§fRUSH"
+main: mlg.rush.leon
+version: "1.6.4"
+api: ["3.0.0"]
+load: STARTUP
+description: Klassische MLGRUUSH-Duelle
+commands:
+  lang:
+    description: MLGRUUSH language
+    usage: "/lang german|english"
+    permission: mlgrush.play
+  mlgrush:
+    description: MLGRUUSH spielen und verwalten
+    aliases: [rush]
+    usage: "/rush"
+    permission: mlgrush.play
+permissions:
+  mlgrush.lang:
+    default: op
+  mlgrush.play:
+    default: true
