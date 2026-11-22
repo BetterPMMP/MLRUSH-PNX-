@@ -1,0 +1,359 @@
+# Allgemein
+schema: 2
+language: "german"
+prefix: "§bMLG§fRUSH"
+chat-format: "§b✦ {prefix} §8- §7{message}"
+error-format: "§b✦ {prefix} §8- §c{message}"
+menu-title: "MLGRUUSH"
+language-menu-title: "Sprache / Language"
+language-button-de: Deutsch
+language-button-en: English
+
+# Duell und Training
+bed-points-to-win: 5
+practice-ringouts: 3
+practice-enabled: true
+op-sword-practice: true
+invite-seconds: 60
+countdown-seconds: 5
+respawn-protection-ms: 500
+practice-leave-hint: " §7· /rush leave"
+duel-map-announcement: "Map · "
+
+# Kampf und Spielregeln
+hearts: 3
+hit-damage: 2
+hit-cooldown-ms: 420
+kill-credit-seconds: 8
+knockback-base: 0.38
+knockback-per-level: 0.32
+knockback-vertical: 0.42
+knockback-enchantment: 3
+arena-pvp: true
+arena-fall-damage: true
+natural-healing: false
+arena-mine-terrain: true
+block-non-op-drops: true
+protect-kit-drops: true
+protect-lobby-drops: true
+
+# Kit und Hotbar
+kit-default-slots: [1, 2, 3]
+kit-block-count: 64
+refill-blocks: true
+kit-food: 20
+freeze-hunger: true
+kit-stick: "minecraft:stick"
+kit-pickaxe: "minecraft:diamond_pickaxe"
+kit-block-red: "minecraft:red_wool"
+kit-block-blue: "minecraft:blue_wool"
+editor-save-item: "minecraft:emerald"
+editor-empty-slot: "minecraft:light_gray_stained_glass_pane"
+editor-selected-format: "§b{slot} · {item}"
+editor-slot-format: "§f{slot} · {item}"
+
+# Lobby
+fallback-lobby-world: world
+lobby-xp-level: 2026
+lobby-radius: 32
+lobby-protect-build: true
+lobby-protect-damage: true
+lobby-slots: [1, 5, 9, 7]
+lobby-sword: "minecraft:iron_sword"
+lobby-editor: "minecraft:chest"
+lobby-practice: "minecraft:compass"
+lobby-language: "minecraft:book"
+
+# Anzeige und Scoreboard
+lobby-hide-hud: [HEALTH, HUNGER, ARMOR, AIR_BUBBLES, HORSE_HEALTH]
+kit-hide-hud: [HEALTH, HUNGER, ARMOR, AIR_BUBBLES, HORSE_HEALTH]
+scoreboard-title: "§bMLG§fRUSH"
+duel-scoreboard: true
+practice-scoreboard: true
+duel-lines-de: ["§7Bettpunkte", "  §cRot     §f{red}", "  §9Blau    §f{blue}", "§r ", "§7Deine Runde", "  §7Kills    §7{kills}", "  §7Tode    §7{deaths}", "{hearts}"]
+practice-lines-de: ["§bTraining", "§7Betten  {beds}", "§7Tode    {deaths}", "{hearts}"]
+duel-lines-en: ["§7Bed points", "  §cRed     §f{red}", "  §9Blue    §f{blue}", "§r ", "§7Your round", "  §7Kills    §7{kills}", "  §7Deaths  §7{deaths}", "{hearts}"]
+practice-lines-en: ["§bPractice", "§7Beds  {beds}", "§7Deaths  {deaths}", "{hearts}"]
+hearts-format: "  §c{full}§8{empty}"
+heart-symbol: "♥ "
+
+# Karten und Weltregeln
+arena-center-x: 80
+arena-floor-y: 80
+arena-center-z: 80
+bed-color-red: RED
+bed-color-blue: BLUE
+arena-allow-mobs: false
+fixed-time: true
+world-time: 6000
+copy-when-full: true
+shuffle-map-order: true
+default-world: "MLG_Rush_Map"
+default-map-title: "MLG Rush Map"
+palette-red_concrete: "minecraft:red_concrete"
+palette-blue_concrete: "minecraft:blue_concrete"
+palette-smooth_quartz: "minecraft:smooth_quartz"
+palette-smooth_stone: "minecraft:smooth_stone"
+palette-red_terracotta: "minecraft:red_terracotta"
+palette-blue_terracotta: "minecraft:blue_terracotta"
+palette-sea_lantern: "minecraft:sea_lantern"
+
+# Texte Deutsch
+text-de-accept-challenge: "Herausforderung annehmen"
+text-de-activate-mlg-rush-map: "MLG Rush Map aktivieren"
+text-de-active-arena: "Aktive Rush-Map: "
+text-de-arena-available: "Arena frei"
+text-de-arena-ready: "Rush-Map eingerichtet: "
+text-de-back: "Zurück"
+text-de-bed: "Bett"
+text-de-bed-duel-first-to-goal: "Bettduell · zuerst {goal} Punkte"
+text-de-beds-in-duels: "\nBetten im 1v1: "
+text-de-best: ". Bestzeit: "
+text-de-best-bridge-time: "\nBridge-Bestzeit: "
+text-de-blue: "Blau"
+text-de-break-the-blue-bed-goal-times: "Baue das blaue Bett {goal}-mal ab."
+text-de-bridge-time-trial: "Bridge-Zeitlauf · vom Spawn zum Bett"
+text-de-bridge-to-the-opposing-bed-falling-restarts-the: "Baue zum Gegnerbett und knacke deine Bestzeit. Ein Sturz startet den Versuch neu."
+text-de-challenge: "Herausfordern"
+text-de-challenge-a-player: "Spieler herausfordern"
+text-de-challenges-you-hit-back-with-your-sword-or: " fordert dich heraus. Schlag mit deinem Schwert zurück oder nutze /rush annehmen."
+text-de-choose-your-language: "Wähle deine Sprache."
+text-de-choose-your-opponent: "Wähle deinen Gegner."
+text-de-coordinates-are-for-existing-worlds-for-a-new: "Koordinaten sind für bestehende Welten. Für eine neue Void-Map reicht ihr Name."
+text-de-could-not-create-the-arena: "Map konnte nicht erstellt werden."
+text-de-could-not-load-the-arena: "Die Arena konnte nicht geladen werden."
+text-de-could-not-load-the-arena-2: "Die Rush-Map konnte nicht geladen werden."
+text-de-could-not-load-world: "Welt konnte nicht geladen werden."
+text-de-could-not-start-practice: "Training konnte nicht starten."
+text-de-duel-in-progress: "Duell läuft"
+text-de-end-practice: "Training beenden"
+text-de-english: "Deutsch"
+text-de-enter-whole-number-coordinates: "Bitte ganze Koordinaten angeben."
+text-de-everyone-plays-with-a-stick: "Alle spielen mit dem gleichen Stock."
+text-de-find-a-classic-1v1: "Klassisches 1v1 suchen"
+text-de-finish-the-match-and-empty-the-queue-before: "Mapwechsel erst bei freier Arena und leerer Warteschlange."
+text-de-finished-in: "Ziel erreicht in "
+text-de-for: " für "
+text-de-forfeit-duel: "Duell aufgeben"
+text-de-hits: "Treffer "
+text-de-hotbar-saved: "Hotbar gespeichert."
+text-de-inventory-restored: "Inventar zurückgegeben."
+text-de-invitation-to: "Einladung an "
+text-de-knock-the-target-off-ringouts-times-with-the: "Schlage das Trainingsziel {ringouts}-mal von der Plattform. Benutze den Stock."
+text-de-knockback-knock-the-target-off-ringouts-times: "Knockback · {ringouts} Ring-outs am Dummy"
+text-de-language: "Sprache: "
+text-de-language-english: "Sprache · Deutsch"
+text-de-leave-queue: "Warteschlange verlassen"
+text-de-leave-the-match-with-rush-leave: "Verlasse das Match mit /rush leave."
+text-de-left-the-queue: "Warteschlange verlassen."
+text-de-loaded-arena: "Rush-Map geladen: "
+text-de-look-at-the-floor-under-the-foot-of: "Schau auf den Bodenblock für das Fußende."
+text-de-losses: "\nNiederlagen: "
+text-de-manage-hotbar: "Hotbar verwalten"
+text-de-manage-inventory: "Inventar verwalten"
+text-de-mlg-rush-map: "MLG Rush Map aktiv: "
+text-de-mlgruush-starts-in: "§eMLGRUUSH startet in "
+text-de-my-profile: "Mein Profil"
+text-de-new-arena: "Neue Rush-Map aktiv: "
+text-de-no-arena-available: "Keine Arena verfügbar."
+text-de-no-pending-invitation: "Keine offene Einladung."
+text-de-no-practice-map-available: "Keine Trainingsmap verfügbar."
+text-de-no-runs-yet: "Noch kein Lauf"
+text-de-not-enough-room-choose-an-empty-spot-with: "Zu wenig freie Fläche. Wähle eine freie Mitte mit /rush arena <Welt> <X> <Y> <Z>."
+text-de-only-an-op-can-edit-an-idle-arena: "Nur als OP bei freier Arena."
+text-de-only-an-op-outside-a-match-can-do: "Nur als OP außerhalb des Matches."
+text-de-only-operators-can-do-that: "Dafuer brauchst du OP."
+text-de-only-operators-can-do-that-2: "Dafür brauchst du OP."
+text-de-operator-practice: "OP-Training"
+text-de-operators-only: "Nur für OPs."
+text-de-opponent-or-arena-unavailable: "Gegner oder Arena gerade nicht verfügbar."
+text-de-pickaxe: "Spitzhacke"
+text-de-players-leave-with-rush-leave: " Spieler. Verlassen mit /rush leave."
+text-de-point-for: "Punkt für "
+text-de-practice: "Training"
+text-de-practice-in-progress: "Training läuft"
+text-de-practice-is-disabled: "Training ist deaktiviert."
+text-de-practice-opponent: "Testgegner"
+text-de-practice-target: "§eTrainingsziel"
+text-de-queue: " · Warteschlange: "
+text-de-queue-2: "Warteschlange: "
+text-de-red: "Rot"
+text-de-red-or-blue: " red oder blue"
+text-de-restart-attempt: "Versuch neu starten"
+text-de-rush-arena-world-centerx-floory-centerz: "/rush arena <Weltname> [MitteX BodenY MitteZ]"
+text-de-rush-lobby-saved: "Rush-Lobby gespeichert."
+text-de-save: "Speichern"
+text-de-saved: " gespeichert."
+text-de-selected-existing-arena: "Vorhandene Rush-Map übernommen: "
+text-de-sent-it-expires-in-invite-seconds: " gesendet. Sie gilt {invite} Sekunden."
+text-de-server-shutting-down: "Server wird beendet."
+text-de-simulate-an-opponent-scoring: "Gegnerischen Bettpunkt simulieren"
+text-de-solo-practice: "Solo-Test"
+text-de-solo-practice-finished: "Solo-Test beendet."
+text-de-solo-practice-is-for-operators: "Der Solo-Test ist für OPs."
+text-de-solo-practice-on: "Solo-Training auf "
+text-de-stand-inside-the-idle-arena-use-rush-edit: "Stell dich in die freie aktive Arena. /rush edit bringt dich dorthin."
+text-de-start-cancelled-your-inventory-has-been-restored: "Start abgebrochen. Dein Inventar wurde zurückgegeben."
+text-de-stick: "Stock"
+text-de-switch-sides: "Teamseite wechseln"
+text-de-switch-to-survival-to-join-a-duel: "Für ein Spielerduell bitte in Survival wechseln."
+text-de-tap-to-play: "Antippen zum Spielen"
+text-de-tap-two-items-to-swap: "Zwei Items zum Tauschen antippen"
+text-de-team-wool: "Teamwolle"
+text-de-the-arena-is-busy: "Die Arena ist gerade belegt."
+text-de-the-arena-is-in-use: "Die Arena ist gerade für ein Duell belegt."
+text-de-the-arena-is-yours-during-practice-use-rush: "Die Arena gehört während des Tests dir. Mit /rush öffnest du dieses Menü im Match."
+text-de-the-bed-needs-two-empty-spaces-with-solid: "Das Bett braucht zwei freie Felder mit Boden darunter."
+text-de-the-mlg-rush-map-is-already-active: "Die MLG Rush Map ist bereits aktiv."
+text-de-the-rush-lobby-has-not-been-set: "Die Rush-Lobby wurde noch nicht gesetzt."
+text-de-this-arena-is-already-active: "Diese Map ist bereits aktiv."
+text-de-this-player-is-unavailable: "Dieser Spieler ist gerade nicht verfügbar."
+text-de-time: "Zeit "
+text-de-unknown-command-use-rush-for-the-menu: "Unbekannter Befehl. /rush öffnet das Menü."
+text-de-use-this-command-in-game: "Bitte im Spiel verwenden."
+text-de-wins: "Siege: "
+text-de-wins-2: " gewinnt!"
+text-de-wins-by-forfeit: " gewinnt durch Aufgabe."
+text-de-you-are-already-signed-up: "Du bist bereits angemeldet."
+text-de-you-are-in-solo-practice-rush-leave: "Du bist im Solo-Training. /rush leave"
+text-de-you-are-not-in-a-duel: "Du bist in keinem Duell."
+text-de-your-language-is-english: "Deine Sprache ist Deutsch."
+
+# Texte Englisch
+text-en-accept-challenge: "Accept challenge"
+text-en-activate-mlg-rush-map: "Activate MLG Rush Map"
+text-en-active-arena: "Active arena: "
+text-en-arena-available: "Arena available"
+text-en-arena-ready: "Arena ready: "
+text-en-back: "Back"
+text-en-bed: "Bed"
+text-en-bed-duel-first-to-goal: "Bed duel · first to {goal}"
+text-en-beds-in-duels: "\nBeds in duels: "
+text-en-best: ". Best: "
+text-en-best-bridge-time: "\nBest bridge time: "
+text-en-blue: "Blue"
+text-en-break-the-blue-bed-goal-times: "Break the blue bed {goal} times."
+text-en-bridge-time-trial: "Bridge time trial"
+text-en-bridge-to-the-opposing-bed-falling-restarts-the: "Bridge to the opposing bed. Falling restarts the timer."
+text-en-challenge: "Challenge"
+text-en-challenge-a-player: "Challenge a player"
+text-en-challenges-you-hit-back-with-your-sword-or: " challenges you. Hit back with your sword or use /rush annehmen."
+text-en-choose-your-language: "Choose your language."
+text-en-choose-your-opponent: "Choose your opponent."
+text-en-coordinates-are-for-existing-worlds-for-a-new: "Coordinates are for existing worlds. For a new void arena, use its name."
+text-en-could-not-create-the-arena: "Could not create the arena."
+text-en-could-not-load-the-arena: "Could not load the arena."
+text-en-could-not-load-the-arena-2: "Could not load the arena."
+text-en-could-not-load-world: "Could not load world."
+text-en-could-not-start-practice: "Could not start practice."
+text-en-duel-in-progress: "Duel in progress"
+text-en-end-practice: "End practice"
+text-en-english: "English"
+text-en-enter-whole-number-coordinates: "Enter whole-number coordinates."
+text-en-everyone-plays-with-a-stick: "Everyone plays with a stick."
+text-en-find-a-classic-1v1: "Find a classic 1v1"
+text-en-finish-the-match-and-empty-the-queue-before: "Finish the match and empty the queue before switching arenas."
+text-en-finished-in: "Finished in "
+text-en-for: " for "
+text-en-forfeit-duel: "Forfeit duel"
+text-en-hits: "Hits "
+text-en-hotbar-saved: "Hotbar saved."
+text-en-inventory-restored: "Inventory restored."
+text-en-invitation-to: "Invitation to "
+text-en-knock-the-target-off-ringouts-times-with-the: "Knock the target off {ringouts} times with the stick."
+text-en-knockback-knock-the-target-off-ringouts-times: "Knockback · knock the target off {ringouts} times"
+text-en-language: "Language: "
+text-en-language-english: "Language · English"
+text-en-leave-queue: "Leave queue"
+text-en-leave-the-match-with-rush-leave: "Leave the match with /rush leave."
+text-en-left-the-queue: "Left the queue."
+text-en-loaded-arena: "Loaded arena: "
+text-en-look-at-the-floor-under-the-foot-of: "Look at the floor under the foot of the bed."
+text-en-losses: "\nLosses: "
+text-en-manage-hotbar: "Manage hotbar"
+text-en-manage-inventory: "Manage inventory"
+text-en-mlg-rush-map: "MLG Rush Map: "
+text-en-mlgruush-starts-in: "§eMLGRUUSH starts in "
+text-en-my-profile: "My profile"
+text-en-new-arena: "New arena: "
+text-en-no-arena-available: "No arena available."
+text-en-no-pending-invitation: "No pending invitation."
+text-en-no-practice-map-available: "No practice map available."
+text-en-no-runs-yet: "No runs yet"
+text-en-not-enough-room-choose-an-empty-spot-with: "Not enough room. Choose an empty spot with /rush arena <world> <X> <Y> <Z>."
+text-en-only-an-op-can-edit-an-idle-arena: "Only an OP can edit an idle arena."
+text-en-only-an-op-outside-a-match-can-do: "Only an OP outside a match can do this."
+text-en-only-operators-can-do-that: "Only operators can do that."
+text-en-only-operators-can-do-that-2: "Only operators can do that."
+text-en-operator-practice: "Operator practice"
+text-en-operators-only: "Operators only."
+text-en-opponent-or-arena-unavailable: "Opponent or arena unavailable."
+text-en-pickaxe: "Pickaxe"
+text-en-players-leave-with-rush-leave: " players. Leave with /rush leave."
+text-en-point-for: "Point for "
+text-en-practice: "Practice"
+text-en-practice-in-progress: "Practice in progress"
+text-en-practice-is-disabled: "Practice is disabled."
+text-en-practice-opponent: "Practice opponent"
+text-en-practice-target: "§ePractice target"
+text-en-queue: " · Queue: "
+text-en-queue-2: "Queue: "
+text-en-red: "Red"
+text-en-red-or-blue: " red or blue"
+text-en-restart-attempt: "Restart attempt"
+text-en-rush-arena-world-centerx-floory-centerz: "/rush arena <world> [centerX floorY centerZ]"
+text-en-rush-lobby-saved: "Rush lobby saved."
+text-en-save: "Save"
+text-en-saved: " saved."
+text-en-selected-existing-arena: "Selected existing arena: "
+text-en-sent-it-expires-in-invite-seconds: " sent. It expires in {invite} seconds."
+text-en-server-shutting-down: "Server shutting down."
+text-en-simulate-an-opponent-scoring: "Simulate an opponent scoring"
+text-en-solo-practice: "Solo practice"
+text-en-solo-practice-finished: "Solo practice finished."
+text-en-solo-practice-is-for-operators: "Solo practice is for operators."
+text-en-solo-practice-on: "Solo practice on "
+text-en-stand-inside-the-idle-arena-use-rush-edit: "Stand inside the idle arena. Use /rush edit to get there."
+text-en-start-cancelled-your-inventory-has-been-restored: "Start cancelled. Your inventory has been restored."
+text-en-stick: "Stick"
+text-en-switch-sides: "Switch sides"
+text-en-switch-to-survival-to-join-a-duel: "Switch to survival to join a duel."
+text-en-tap-to-play: "Tap to play"
+text-en-tap-two-items-to-swap: "Tap two items to swap"
+text-en-team-wool: "Team wool"
+text-en-the-arena-is-busy: "The arena is busy."
+text-en-the-arena-is-in-use: "The arena is in use."
+text-en-the-arena-is-yours-during-practice-use-rush: "The arena is yours during practice. Use /rush to reopen this menu."
+text-en-the-bed-needs-two-empty-spaces-with-solid: "The bed needs two empty spaces with solid ground underneath."
+text-en-the-mlg-rush-map-is-already-active: "The MLG Rush Map is already active."
+text-en-the-rush-lobby-has-not-been-set: "The Rush lobby has not been set."
+text-en-this-arena-is-already-active: "This arena is already active."
+text-en-this-player-is-unavailable: "This player is unavailable."
+text-en-time: "Time "
+text-en-unknown-command-use-rush-for-the-menu: "Unknown command. Use /rush for the menu."
+text-en-use-this-command-in-game: "Use this command in game."
+text-en-wins: "Wins: "
+text-en-wins-2: " wins!"
+text-en-wins-by-forfeit: " wins by forfeit."
+text-en-you-are-already-signed-up: "You are already signed up."
+text-en-you-are-in-solo-practice-rush-leave: "You are in solo practice. /rush leave"
+text-en-you-are-not-in-a-duel: "You are not in a duel."
+text-en-your-language-is-english: "Your language is English."
+
+
+leaderboard-slot: 3
+lobby-leaderboard: "minecraft:nether_star"
+text-de-help-title: "MLGRUUSH Hilfe"
+text-en-help-title: "MLGRUUSH help"
+text-de-leaderboard-title: "Top 10 · Duellsiege"
+text-en-leaderboard-title: "Top 10 · Duel wins"
+text-de-leaderboard-empty: "Noch keine Duellsiege"
+text-en-leaderboard-empty: "No duel wins yet"
+text-de-close: "Schließen"
+text-en-close: "Close"
+text-de-return-sword-challenge: " fordert dich heraus. Schlage mit deinem Herausforderungsschwert zurück."
+text-en-return-sword-challenge: " challenged you. Hit them back with your challenge sword."
+text-de-use-rush-help: "Unbekannter Befehl. Nutze /rush help."
+text-en-use-rush-help: "Unknown command. Use /rush help."
+text-de-countdown-go: "§aLos!"
+text-en-countdown-go: "§aGo!"
